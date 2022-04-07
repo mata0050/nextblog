@@ -10,7 +10,7 @@ export default function Home() {
         prefetch={false}
         href={{ pathname: '/[username]', query: { username: 'mike' } }}
       >
-        <a>Mike's Profile</a>
+        <a>Mike Profile</a>
       </Link>
     </div>
   );
